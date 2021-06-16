@@ -1,7 +1,20 @@
-Web scraped user profiles from "stories.json"
+# Web scraping user profiles from TowardsDataScience
+I web scrapped user profiles from the [stories dataset](???) containing 16529 user profiles links and generated 3908 unique user profile records.
 
-Profile dataset is web scraped from user profiles link from the [stories dataset](???) containing duplicate ??? user profile records.
+## Initiate the Scrapy 
+```
+mkdir mediumprofile
+cd mediumprofile
+scrapy startproject mediumprofile
+scrapy genspider profile [url]
+```
 
+Add ```FEED_EXPORT_ENCODING = 'utf-8'``` in `settings.py`
+
+Generate the output by 
+```scrapy crawl profile -o profile.json```
+
+##
 ![](images/profile.png)
 
 Sample Record :
