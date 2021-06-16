@@ -1,5 +1,5 @@
 # Web scraping articles info from TowardsDataScience
-I web scrapped 16529 articles' info from [TowardsDataScience](http://towardsdatascience.com) that published from 02/2016 to 05/2021
+I web scrapped 43185 articles' info from [TowardsDataScience](http://towardsdatascience.com) that published from 02/2016 to 05/2021
 
 ## Initiate the Scrapy 
 ```
