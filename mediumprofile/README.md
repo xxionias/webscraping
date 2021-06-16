@@ -1,5 +1,5 @@
 # Web scraping user profiles from TowardsDataScience
-I web scrapped user profiles from the [stories dataset](???) containing 16529 user profiles links and generated 3908 unique user profile records.
+I web scrapped user profiles from the [stories dataset](https://github.com/xxionias/webscraping/tree/master/mediumstories) containing ~40000 user profiles links and generated 3908 unique user profile records.
 
 ## Initiate the Scrapy 
 ```
