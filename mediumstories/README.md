@@ -14,7 +14,7 @@ Add ```FEED_EXPORT_ENCODING = 'utf-8'``` in `settings.py`
 Generate the output by 
 ```scrapy crawl sories -o stories.json```
 
-##
+## Sample page that I scraped from
 ![](images/stories.png)
 
 Sample Output Record :
